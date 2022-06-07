@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="scss/style.css">
+    <title>Checkout</title>
+</head>
+
+<body>
+
+    <header class="container">
+        <ul class="breadcrumb">
+            <li><a href="#">Information</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Payment</a></li>
+        </ul>
+    </header>
+    <main class="container">
+        <div class="row d-flex justify-content-between">
+            <div class="col-md-6 column">
+                <section class="first-block">
+                    <h5> <span><small>1</small></span> Contact Information</h5>
+                    <form action="#">
+                        <input type="email" class="" name="email" id="email" placeholder="example@example.com">
+                        <input type="submit" value="Add my email">
+
+                        <p><small>You'll be able to save your details to <strong>create an account</strong> with us
+                                later.</small>
+                        </p>
+                        <input type="checkbox"> <small>Keep me up to date on exclusive offers</small>
+                        <p>Already have an account?<a href="#">Sign in now</a></p>
+
+                    </form>
+                </section>
+                <hr>
+                <section class="second-block">
+                    <h5> <span><small>2</small></span> Shipping details</h5>
+                    <p class="shipping-address"><small>Shipping Address</small></p>
+                    <form action="#">
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+                        <label for="">Full Name</label>
+                        <input type="text" class="full-name" name="" id="" placeholder="">
+                        <label for="">Address 1</label>
+                        <input type="text" class="address-1" name="" id="" placeholder="">
+                        <small>Street address, home number, PO Box</small>
+                        <p>+<a href="#">Add addtional Address Info</a></p>
+
+                        <div class="row mb-0">
+                            <input type="text" class="city" name="" id="" placeholder="City">
+                            <input type="text" class="state" name="" id="" placeholder="State/Province">
+                        </div>
+
+
+                        <div class="row">
+                            <input type="text" class="postal-code" name="" id="" placeholder="Postal Code">
+                            <input type="number" class="phone" name="" id="" placeholder="Phone">
+                        </div>
+
+                    </form>
+                </section>
+                <section class="third-block">
+                    <p class="shippping-methods"><small>Shipping Methods</small></p>
+                    <form action="#">
+                        <div class="shipping-methods-wrapper">
+                            <div class="wrapper">
+                                <div class="shipping-icon">
+                                    <input type="radio" id="" name="ship-method" value=""> <img class="img-fluid"
+                                        src="./img/logo.svg" alt="">
+                                </div>
+                                <div class="shipping-info">
+                                    <h6>USPS First Class Package International</h6>
+                                    <p><small>7 to 21 business days</small><span>$5.99</span></p>
+                                </div>
+                            </div>
+                            <div class="wrapper">
+                                <div class="shipping-icon">
+                                    <input type="radio" id="" name="ship-method" value=""> <img class="img-fluid"
+                                        src="./img/fedex-express-6.svg" alt="">
+                                </div>
+                                <div class="shipping-info">
+                                    <h6>FedEx Next Day Delivery</h6>
+                                    <p><small>No delivery on Public Holidays</small><span>$19.99</span></p>
+                                </div>
+                            </div>
+                            <div class="wrapper">
+                                <div class="shipping-icon">
+                                    <input type="radio" id="" name="ship-method" value=""> <img class="img-fluid"
+                                        src="./img/dhl-logo.svg" alt="">
+                                </div>
+                                <div class="shipping-info">
+                                    <h6>DHL Express</h6>
+                                    <p><small>1 Day delivery</small><span>$8.99</span></p>
+                                </div>
+                            </div>
+                            <div class="wrapper">
+                                <div class="shipping-icon">
+                                    <input type="radio" id="" name="ship-method" value=""> <img class="img-fluid"
+                                        src="./img/ups.svg" alt="">
+                                </div>
+                                <div class="shipping-info">
+                                    <h6>UPS - 1 Day Delivery</h6>
+                                    <p><small>No delivery on Public Holidays</small><span>$6.50</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="option-buttons">
+                            <a href="#"> <span> <i class="fas fa-angle-left fa-fw"></i> </span> Return to
+                                information</a>
+                            <input type="submit" value="Continue to payment">
+                        </div>
+                    </form>
+                </section>
+                <hr>
+                <div class="fourth-block">
+                    <h5> <span><small>3</small></span> Payment Details</h5>
+                    <p class="payment-method"><small>Payment Methods</small></p>
+                    <form action="#" class="form-1">
+                        <div class="shipping-methods-wrapper">
+                            <div class="wrapper">
+                                <div class="shipping-icon">
+                                    <input type="radio" id="" name="icon" value=""> <img class="img-fluid"
+                                        src="./img/logo.svg" alt="">
+                                </div>
+                                <div class="shipping-info">
+                                </div>
+                            </div>
+                            <div class="wrapper">
+                                <div class="shipping-icon">
+                                    <input type="radio" id="" name="icon" value=""> <img class="img-fluid"
+                                        src="./img/logo.svg" alt="">
+                                </div>
+                                <div class="shipping-info">
+                                </div>
+                            </div>
+
+                            <div class="wrapper-cards">
+                                <div class="credit-card">
+                                    <input type="radio" id="" name="" value=""> Credit Card
+                                </div>
+                                <div class="cards-info">
+                                    <a href="#"> <i class="fab fa-cc-visa"></i> </a>
+                                    <a href="#"> <i class="fab fa-cc-mastercard"></i> </a>
+                                    <a href="#"> <i class="fab fa-cc-amex"></i> </a>
+                                    <p><small>If your card is not on the list, let us know</small>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                    <div class="note">
+                        <p><small> <i class="fas fa-lock"></i> This is a secure 128-bit SSL Encrypted payment.
+                                You're safe.</small></p>
+                    </div>
+                    <form action="#" class="form-2">
+                        <div class="card-no">
+                            <label for="">Card Number</label>
+                            <input type="text" name="" id="" minlength="12" maxlength="19">
+                        </div>
+                        <p><small>12-19 digits, spaces and dashes allowed</small></p>
+                        <div class="card-info">
+                            <div>
+                                <label for="">Name on card</label>
+                                <input type="text" name="" id="">
+                            </div>
+                            <div>
+                                <label for="">Expiry date</label>
+                                <input type="month" id="month" name="month">
+                            </div>
+                        </div>
+                        <div class="sec-code">
+                            <label for="">Security code (CVV/CVC)</label>
+                            <input type="number" name="" id="" pattern="[0-9]{3}" placeholder="123">
+                            <p>+<a href="#">Add addtional Address Info</a></p>
+                        </div>
+                        <input type="checkbox" id="" name="" value=""> Save payment information for future purposes
+                    </form>
+                    <p class="billing-address"><small>Billing Address</small></p>
+                    <form class="form-3" action="#">
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+                        <label for="">Full Name</label>
+                        <input type="text" class="full-name" name="" id="" placeholder="">
+                        <label for="">Address 1</label>
+                        <input type="text" class="address-1" name="" id="" placeholder="">
+                        <small>Street address, home number, PO Box</small>
+                        <p>+<a href="#">Add addtional Address Info</a></p>
+
+                        <div class="row mb-0">
+                            <input type="text" class="city" name="" id="" placeholder="City">
+                            <input type="text" class="state" name="" id="" placeholder="State/Province">
+                        </div>
+
+
+                        <div class="row">
+                            <input type="number" class="postal-code" name="" id="" placeholder="Postal Code">
+                            <input type="number" class="phone" name="" id="" placeholder="Phone">
+                        </div>
+
+                    </form>
+                    <div class="option-buttons">
+                        <a href="#"> <span> <i class="fas fa-angle-left fa-fw"></i> </span> Return to
+                            shipping</a>
+                        <input type="submit" value="Place order">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 column">
+                <section class=" pricing-info">
+                    <div class="order-summary">
+                        <h5><strong>Order Summmary</strong></h5>
+                        <p><small><a href="#">Edit Cart</a></small></p>
+                    </div>
+                    <hr>
+                    <div class="product">
+                        <div class="product-img">
+                            <img class="img-fluid" src="./img/p-1.png" alt="">
+                        </div>
+                        <div class="product-text">
+                            <h6>White heels</h6>
+                            <p class="price">$78.99</p>
+                            <p><small>Quantity: <span>1</span></small></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="product">
+                        <div class="product-img">
+                            <img class="img-fluid" src="./img/p-2.png" alt="">
+                        </div>
+                        <div class="product-text">
+                            <h6>White heels</h6>
+                            <p class="price">$78.99</p>
+                            <p><small>Quantity: <span>1</span></small></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="costs">
+                        <div class="cost">
+                            <p>Subtotal</p>
+                            <p><strong>$158.00</strong></p>
+                        </div>
+                        <div class="cost">
+                            <p>Shipping</p>
+                            <p><strong>$8.99</strong></p>
+                        </div>
+                        <div class="cost">
+                            <p>Tax</p>
+                            <p><strong>$10</strong></p>
+                        </div>
+                        <div class="cost">
+                            <p><a href="#">Coupon/Gift Card</a></p>
+                        </div>
+                        <div class="cost">
+                            <p>Total(USD)</p>
+                            <p><strong>$177.00</strong></p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
+    <script src="https://kit.fontawesome.com/9d892b4fd1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
